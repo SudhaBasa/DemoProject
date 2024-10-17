@@ -6,23 +6,27 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
-	static WebDriver driver=null;
+	public static WebDriver driver=null;
 	
 	public static void initializeBrowser(String browserName) {
 	
-		if (browserName.equals("chrome")) {
+		if (browserName.equalsIgnoreCase("chrome")) {
 			 driver=new ChromeDriver();
-		}else if(browserName.equals("firefox")) {
+		}else if(browserName.equalsIgnoreCase("firefox")) {
 			 driver=new FirefoxDriver();
-		}else if(browserName.equals("edge")) {
+		}else if(browserName.equalsIgnoreCase("edge")) {
 			 driver=new EdgeDriver();
 		}
-		
+		//return driver;
 	}
 	
 	
 	public static WebDriver getDriver() {
+		
+		if ( driver == null ) initializeBrowser("chrome");
 		return driver;
 	}
+	
+	
 
 }

@@ -10,12 +10,12 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
 public class Hooks {
-	WebDriver driver;
+	public static WebDriver driver;
 
 	@Before
 	public void setup() {
 		
-		DriverFactory.initializeBrowser("chrome");
+		//driver=DriverFactory.initializeBrowser("firefox");
 		driver = DriverFactory.getDriver();
 
 		driver.manage().deleteAllCookies();

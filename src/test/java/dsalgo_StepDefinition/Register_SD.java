@@ -15,6 +15,29 @@ import io.cucumber.java.en.When;
 
 public class Register_SD {
 
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
 	WebDriver driver;
 
 	@Given("User navigates to Register Account Page")
@@ -39,5 +62,4 @@ public class Register_SD {
 		System.out.println("Tooltip Message" + text);
 		Assert.assertEquals("Please fill out this field.", text);
 
-	}
-}
+	}*/
