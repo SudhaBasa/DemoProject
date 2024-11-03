@@ -1,4 +1,4 @@
-@Register
+@Register @all
 Feature: Testing functionality of Register Page
 
   @TS_Register_01
@@ -6,17 +6,18 @@ Feature: Testing functionality of Register Page
     Given The user opens DSAlgo portal link
     When The user clicks the "Get Started" Button
     Then The User should be navigated to Home Page
+    Given The user opens Register Page
 
   @TS_Register_02
   Scenario: The user Registers account with empty fields
     Given The user opens Register Page
-    When The user clicks "Register" button with all fields empty
+    When The user clicks Register button with all fields empty
     Then The error "Please fill out this field." appears below Username textbox
 
   @TS_Register_03
   Scenario: The user Registers account with  Username and other fields empty
     Given The user opens Register Page
-    When The user clicks "Register" button after entering Username with other fields empty
+    When The user clicks Register button after entering Username with other fields empty
       | username   |
       | Raha_a@123 |
     Then The error message "Please fill out this field." appears below Password textbox
@@ -24,61 +25,41 @@ Feature: Testing functionality of Register Page
   @TS_Register_04
   Scenario: The user Registers account with username, password and Confirm Password empty
     Given The user opens Register Page
-    When The user clicks "Register" button after entering Username and password with Password Confirmation field empty
+    When The user clicks Register button after entering Username and password with Password Confirmation field empty
       | username   | password  |
       | Raha_a@123 | aha_1@456 |
     Then The error message "Please fill out this field." appears below Password Confirmation textbox
 
   @TS_Register_05
-  Scenario: The user enters invalid username
+  Scenario Outline: The user Registers with invalid Details
     Given The user opens Register Page
-    When The user enters a "username" with charaters other than Letters, digits and "@/./+/-/_"
-      | username | password  | password confirmation |
-      | *&&*&&*  | aha_1@456 | aha_1@456             |
-    Then The user is not able to see error msg after entering invalid data
+    When The user enters  "<username>" and "<password>" and "<passwordconfirmation>"
+    Then The user should be able to see the error msg "<errormsg>"
+
+    Examples: 
+      | username     | password       | passwordconfirmation | errormsg                                                |
+      | Lillyy_1@991 | testPassword@1 | testPassword@1       | username already exists                                 |
+      | Raha_a@123   | ah_1@4         | ah_1@4               | Password should be atleast 8 characters                 |
+      | &&**&&**     | aha_1@456      | aha_1@456            | Please enter a valid username                           |
+      | Raha_a@123   |       12345678 |             12345678 | Password cannot be only numeric                         |
+      | Raha_a@123   | aha_1@456      | aha_1@4567           | password_mismatch:The two password fields didn’t match. |
 
   @TS_Register_06
-  Scenario: The user Registers with numeric data in password
+  Scenario Outline: The user Registers with valid Details
     Given The user opens Register Page
-    When The user enters a valid "username" and "password" with only numbers
-      | username   | password | password confirmation |
-      | Raha_a@123 | 12345678 |              12345678 |
-    Then The user is not able to see error msg after entering invalid data
+    When The user enters a valid "<username>" and "<password>" and "<passwordconfirmation>"
+    Then The user should be navigated to Home Page with message "New Account Created. You are logged in as <username>"
 
-  @TS_Register_07
-  Scenario: The User Registers password with lessthan 8 characters
-    Given The user opens Register Page
-    When The user enters a valid "username" and "password" with less than 8 characters
-      | username   | password | password confirmation |
-      | Raha_a@123 | aha123   | aha123                |
-    Then The user is not able to see error msg after entering invalid data
+    Examples: 
+      | username      | password       | passwordconfirmation |
+      | Lillyy_1@9910 | testPassword@1 | testPassword@1       |
 
-  @TS_Register_08
-  Scenario: The user Registers with different passwords
-    Given The user opens Register Page
-    When The user clicks "Register" button after entering "username" and different passwords in "Password" and "Password Confirmation" fields
-      | username   | password  | password confirmation |
-      | Raha_a@123 | aha_1@456 | aha_1@4567            |
-    Then The user should able to see an error message "password_mismatch:The two password fields didn’t match."
-
-  @TS_Register_09
-  Scenario: The user Registers with valid Details
-    Given The user opens Register Page
-    When The user enters a valid "Username" and "Password" and "Password Confirmation"
-      | username    | password   | password confirmation |
-      | Raha_a@1234 | aha_1@4567 | aha_1@4567            |
-    Then The user should be navigated to Home Page with message "New Account Created. You are logged in as<username>"
-
-  @TS_register_10
-  Scenario: The user is Registers with existing username
-    Given The user opens Register Page
-    When The user enters a valid existing "username" with "password" and "password confirmation"
-      | username    | password  | password confirmation |
-      | Raha_a@1234 | numpy@123 | numpy@123             |
-    Then It should display an error message "Username already exists"
-
-  @TS_Register_11
-  Scenario: The user shoule be able to signed out successfully
-    Given The user is on the DS Algo Home Page
-    When The user click the "Sign out" link
-    Then The user should be able to see "Logged out successfully" message
+  #@TS_Register_7
+  #Scenario Outline: User on signin page and login with valid credentials
+    #Given The user is on Sign In Page of DS Algo Portal
+    #When The user enter valid "Lillyy_1@991" and "testPassword@1"
+    #Then The user is navigated to homepage
+#
+    #Examples: 
+      #| username     | password       |
+      #| Lillyy_1@991 | testPassword@1 |
