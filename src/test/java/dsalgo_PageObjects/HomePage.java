@@ -15,11 +15,13 @@ public class HomePage {
 
 	@FindBy(linkText = " Register ")
 	WebElement registerLink;
-	
-	@FindBy(linkText="Sign in")
+
+	@FindBy(linkText = "Sign in")
 	WebElement signInLink;
+
 	@FindBy(linkText = "Sign out")
 	WebElement signOutLink;
+
 	@FindBy(id = "id_username")
 	WebElement loginUserName;
 	@FindBy(id = "id_password")
@@ -32,6 +34,7 @@ public class HomePage {
 	public HomePage() {
 		PageFactory.initElements(driver, this); // this indicates current class
 	}
+
 	public void enterUsername(String username) {
 		loginUserName.sendKeys(username);
 	}
