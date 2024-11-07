@@ -6,7 +6,6 @@ Feature: Testing functionality of Register Page
     Given The user opens DSAlgo portal link
     When The user clicks the "Get Started" Button
     Then The User should be navigated to Home Page
-    Given The user opens Register Page
 
   @TS_Register_02
   Scenario: The user Registers account with empty fields

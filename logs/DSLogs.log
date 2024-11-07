@@ -2369,3 +2369,590 @@
 [INFO ] 2024-11-02 23:36:20.080 [main] Loggerload - The is navigated to Implementation of BST Page 
 [INFO ] 2024-11-02 23:36:20.082 [main] Loggerload - User clicks on Practice Questions Link
 [ERROR] 2024-11-02 23:36:20.314 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:16:42.385 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:16:47.286 [main] Loggerload - The user opens Register Page
+[ERROR] 2024-11-04 12:16:47.731 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:16:51.268 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:16:53.091 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:16:53.728 [main] Loggerload - The user do not enter any values in fields
+[INFO ] 2024-11-04 12:16:53.994 [main] Loggerload - Error message is displayedPlease fill out this field. below Username textbox
+[ERROR] 2024-11-04 12:16:54.043 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:16:57.604 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:17:00.093 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:17:00.738 [main] Loggerload - The user enters valid username and other fields empty
+[INFO ] 2024-11-04 12:17:01.275 [main] Loggerload - Error message is displaed Please fill out this field. below Password textbox
+[ERROR] 2024-11-04 12:17:01.337 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:17:04.930 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:17:07.289 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:17:07.900 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-04 12:17:08.757 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[ERROR] 2024-11-04 12:17:08.810 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:17:12.570 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:17:15.421 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:17:16.345 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:17:18.231 [main] Loggerload - Expected error message is :username already exists
+[INFO ] 2024-11-04 12:17:18.583 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:17:18.675 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:17:22.338 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:17:24.640 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:17:25.439 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:17:27.530 [main] Loggerload - Expected error message is :Password should be atleast 8 characters
+[INFO ] 2024-11-04 12:17:27.701 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:17:27.809 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:17:31.679 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:17:34.405 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:17:35.371 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:17:37.256 [main] Loggerload - Expected error message is :Please enter a valid username
+[INFO ] 2024-11-04 12:17:37.328 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:17:37.364 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:17:40.984 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:17:43.146 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:17:44.126 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:17:45.364 [main] Loggerload - Expected error message is :Password cannot be only numeric
+[INFO ] 2024-11-04 12:17:45.475 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:17:45.528 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:17:49.277 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:17:51.806 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:17:52.719 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:17:54.737 [main] Loggerload - Expected error message is :password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-04 12:17:55.069 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:17:55.204 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:17:58.614 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:18:01.084 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:18:01.837 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-04 12:18:04.219 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-04 12:18:14.296 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:42:46.465 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:42:49.767 [main] Loggerload - The user opens Register Page
+[ERROR] 2024-11-04 12:42:49.999 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:42:53.435 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:42:55.525 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:42:56.087 [main] Loggerload - The user do not enter any values in fields
+[INFO ] 2024-11-04 12:42:56.350 [main] Loggerload - Error message is displayedPlease fill out this field. below Username textbox
+[ERROR] 2024-11-04 12:42:56.411 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:42:59.914 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:43:01.736 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:43:02.426 [main] Loggerload - The user enters valid username and other fields empty
+[INFO ] 2024-11-04 12:43:02.896 [main] Loggerload - Error message is displaed Please fill out this field. below Password textbox
+[ERROR] 2024-11-04 12:43:02.938 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:43:06.330 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:43:08.244 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:43:08.818 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-04 12:43:09.656 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[ERROR] 2024-11-04 12:43:09.706 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:43:13.085 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:43:14.773 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:43:15.389 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:43:16.714 [main] Loggerload - Expected error message is :username already exists
+[INFO ] 2024-11-04 12:43:16.761 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:43:16.807 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:43:20.371 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:43:22.108 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:43:22.722 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:43:23.890 [main] Loggerload - Expected error message is :Password should be atleast 8 characters
+[INFO ] 2024-11-04 12:43:23.939 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:43:23.979 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:43:27.426 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:43:29.124 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:43:29.693 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:43:30.849 [main] Loggerload - Expected error message is :Please enter a valid username
+[INFO ] 2024-11-04 12:43:30.895 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:43:30.918 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:43:34.514 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:43:36.295 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:43:36.897 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:43:38.260 [main] Loggerload - Expected error message is :Password cannot be only numeric
+[INFO ] 2024-11-04 12:43:38.335 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:43:38.361 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:43:41.799 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:43:43.702 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:43:44.426 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-04 12:43:45.550 [main] Loggerload - Expected error message is :password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-04 12:43:45.633 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-04 12:43:45.671 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-04 12:43:48.990 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-04 12:43:51.023 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-04 12:43:51.627 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-04 12:43:52.813 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-04 12:44:02.872 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 10:30:38.075 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 10:30:44.126 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 10:30:45.971 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 10:30:48.778 [main] Loggerload - Expected error message is :username already exists
+[INFO ] 2024-11-05 10:30:49.006 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 10:30:49.166 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 10:30:53.730 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 10:30:58.053 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 10:30:59.081 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 10:31:01.434 [main] Loggerload - Expected error message is :Password should be atleast 8 characters
+[INFO ] 2024-11-05 10:31:01.613 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 10:31:01.733 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 10:31:05.925 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 10:31:09.405 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 10:31:10.511 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 10:31:13.839 [main] Loggerload - Expected error message is :Please enter a valid username
+[INFO ] 2024-11-05 10:31:14.022 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 10:31:14.205 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 10:31:18.196 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 10:31:22.219 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 10:31:23.276 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 10:31:25.917 [main] Loggerload - Expected error message is :Password cannot be only numeric
+[INFO ] 2024-11-05 10:31:26.314 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 10:31:26.474 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 10:31:30.847 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 10:31:34.521 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 10:31:35.543 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 10:31:38.120 [main] Loggerload - Expected error message is :password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-05 10:31:38.316 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 10:31:38.409 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 11:58:51.706 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 11:58:54.253 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 11:58:54.904 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 11:58:55.954 [main] Loggerload - Expected error message is :username already exists
+[INFO ] 2024-11-05 11:58:56.031 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 11:58:56.065 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 11:58:59.521 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 11:59:01.210 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 11:59:01.798 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 11:59:02.340 [main] Loggerload - Expected error message is :Password should be atleast 8 characters
+[INFO ] 2024-11-05 11:59:02.422 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 11:59:02.473 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:02:25.232 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:02:27.020 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:02:27.868 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:02:28.496 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:02:28.531 [main] Loggerload - User is on home page
+[INFO ] 2024-11-05 12:02:28.651 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-05 12:02:28.712 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-05 12:02:28.969 [main] Loggerload - User clicks on queue page from dropdown
+[INFO ] 2024-11-05 12:02:28.982 [main] Loggerload - Title of current page : Queue
+[ERROR] 2024-11-05 12:02:28.983 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:02:32.394 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:02:33.777 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:02:34.617 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:02:35.520 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:02:35.672 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-05 12:02:35.673 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[ERROR] 2024-11-05 12:02:35.974 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:02:39.368 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:02:40.790 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:02:41.572 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:02:42.259 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:02:42.282 [main] Loggerload - User is navigated to Queue in Python Page
+[INFO ] 2024-11-05 12:02:42.282 [main] Loggerload - User is on Implementation of Queue In Python Link
+[INFO ] 2024-11-05 12:02:42.426 [main] Loggerload - User clicks on Try here button
+[INFO ] 2024-11-05 12:02:44.437 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-05 12:02:45.269 [main] Loggerload - Verifying Run button is displayed or not
+[ERROR] 2024-11-05 12:02:45.304 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:02:48.753 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:02:50.174 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:02:51.087 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:02:51.693 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:02:51.721 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-05 12:02:53.878 [main] Loggerload - Users clicks on Run Button
+[ERROR] 2024-11-05 12:02:53.976 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:02:57.252 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:02:59.903 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:03:00.675 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:03:01.253 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:03:01.273 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-05 12:03:02.261 [main] Loggerload - Users clicks on Run Button
+[ERROR] 2024-11-05 12:03:02.342 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:03:05.728 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:03:07.073 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:03:07.896 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:03:08.560 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:03:08.580 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-05 12:03:08.730 [main] Loggerload - User clicks on Implementation using collection.deque link
+[ERROR] 2024-11-05 12:03:08.951 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:03:12.302 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:03:13.672 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:03:14.474 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:03:15.123 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:03:15.151 [main] Loggerload - User is on Implementation using Collections.deque
+[INFO ] 2024-11-05 12:03:15.310 [main] Loggerload - User clicks on Try here button
+[INFO ] 2024-11-05 12:03:17.312 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-05 12:03:18.100 [main] Loggerload - Verifying Run button is displayed or not
+[ERROR] 2024-11-05 12:03:18.135 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:03:21.450 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:03:22.779 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:03:23.770 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:03:24.500 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:03:24.532 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-05 12:03:27.190 [main] Loggerload - Users clicks on Run Button
+[ERROR] 2024-11-05 12:03:27.285 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:03:30.572 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:03:31.913 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:03:32.889 [main] Loggerload - Signing on the home page
+[ERROR] 2024-11-05 12:03:42.971 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:03:48.011 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:03:49.352 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:03:50.488 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:03:51.429 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:03:51.479 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-05 12:03:51.633 [main] Loggerload - User click on Implementation using array
+[ERROR] 2024-11-05 12:03:51.884 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:03:55.207 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:03:56.569 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:03:57.458 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:03:58.072 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:03:58.095 [main] Loggerload - User is on Implementation using Array
+[INFO ] 2024-11-05 12:03:58.262 [main] Loggerload - User clicks on Try here button
+[INFO ] 2024-11-05 12:04:00.272 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-05 12:04:01.063 [main] Loggerload - Verifying Run button is displayed or not
+[ERROR] 2024-11-05 12:04:01.096 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:04:04.479 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:04:05.901 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:04:06.734 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:04:07.377 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:04:07.400 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-05 12:04:08.344 [main] Loggerload - Users clicks on Run Button
+[ERROR] 2024-11-05 12:04:08.438 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:04:11.728 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:04:13.114 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:04:13.972 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:04:14.569 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:04:14.591 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-05 12:04:15.549 [main] Loggerload - Users clicks on Run Button
+[ERROR] 2024-11-05 12:04:15.627 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:04:18.941 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:04:20.264 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:04:21.158 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:04:21.765 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:04:21.785 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-05 12:04:21.959 [main] Loggerload - User clicks on Queue Operations Link
+[ERROR] 2024-11-05 12:04:22.147 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:04:25.499 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:04:26.860 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:04:27.727 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:04:28.359 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:04:28.387 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-05 12:04:28.529 [main] Loggerload - User clicks on Try here button
+[INFO ] 2024-11-05 12:04:30.533 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-05 12:04:31.359 [main] Loggerload - Verifying Run button is displayed or not
+[ERROR] 2024-11-05 12:04:31.394 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:04:34.677 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:04:36.040 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:04:36.933 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:04:37.562 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:04:37.584 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-05 12:04:38.635 [main] Loggerload - Users clicks on Run Button
+[ERROR] 2024-11-05 12:04:38.729 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:04:42.013 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:04:43.326 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:04:44.170 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:04:45.119 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:04:45.145 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-05 12:04:46.090 [main] Loggerload - Users clicks on Run Button
+[ERROR] 2024-11-05 12:04:46.166 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:04:49.538 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:04:50.945 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-05 12:04:51.820 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-05 12:04:52.428 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-05 12:04:52.454 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-05 12:04:52.597 [main] Loggerload - User clicks on Practice Questions Link
+[ERROR] 2024-11-05 12:04:52.815 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:04:56.112 [main] Loggerload - Testing on Chrome
+[ERROR] 2024-11-05 12:04:58.428 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:05:01.715 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:05:03.109 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:05:03.693 [main] Loggerload - The user do not enter any values in fields
+[INFO ] 2024-11-05 12:05:03.839 [main] Loggerload - Error message is displayedPlease fill out this field. below Username textbox
+[ERROR] 2024-11-05 12:05:03.880 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:05:07.172 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:05:08.504 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:05:09.104 [main] Loggerload - The user enters valid username and other fields empty
+[INFO ] 2024-11-05 12:05:09.424 [main] Loggerload - Error message is displaed Please fill out this field. below Password textbox
+[ERROR] 2024-11-05 12:05:09.450 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:05:12.812 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:05:14.164 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:05:14.745 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-05 12:05:15.371 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[ERROR] 2024-11-05 12:05:15.401 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:05:18.711 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:05:20.098 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:05:20.685 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 12:05:21.308 [main] Loggerload - Expected error message is :username already exists
+[INFO ] 2024-11-05 12:05:21.345 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 12:05:21.364 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:05:24.771 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:05:26.232 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:05:26.817 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 12:05:27.359 [main] Loggerload - Expected error message is :Password should be atleast 8 characters
+[INFO ] 2024-11-05 12:05:27.390 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 12:05:27.410 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:05:30.787 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:05:32.082 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:05:32.657 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 12:05:33.233 [main] Loggerload - Expected error message is :Please enter a valid username
+[INFO ] 2024-11-05 12:05:33.265 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 12:05:33.281 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:05:36.718 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:05:38.218 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:05:38.781 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 12:05:39.377 [main] Loggerload - Expected error message is :Password cannot be only numeric
+[INFO ] 2024-11-05 12:05:39.427 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 12:05:39.461 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:05:42.850 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:05:44.272 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:05:44.864 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 12:05:45.759 [main] Loggerload - Expected error message is :password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-05 12:05:45.812 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 12:05:45.849 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:05:49.291 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:05:50.901 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:05:51.477 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 12:05:52.216 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 12:06:02.260 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 12:39:27.414 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 12:39:30.243 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 12:39:30.797 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-05 12:39:31.329 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[ERROR] 2024-11-05 12:39:31.363 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:04:30.306 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:04:32.413 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:04:33.058 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-05 13:04:33.415 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[ERROR] 2024-11-05 13:04:33.437 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:05:21.528 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:05:23.483 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:05:24.062 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-05 13:05:24.699 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[ERROR] 2024-11-05 13:05:24.744 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:06:06.769 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:06:08.581 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:06:09.086 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-05 13:06:09.684 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[ERROR] 2024-11-05 13:06:09.725 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:07:25.440 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:07:27.251 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:07:27.841 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-05 13:07:28.237 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[ERROR] 2024-11-05 13:07:28.259 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:08:50.119 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:08:52.062 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:08:52.561 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 13:08:53.150 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 13:09:03.197 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:10:21.094 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:10:23.453 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:10:23.985 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 13:10:24.442 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 13:10:34.500 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:17:58.971 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:18:05.193 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:18:07.791 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:18:08.356 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 13:18:08.812 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 13:18:18.873 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:23:15.632 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:23:17.735 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:23:18.367 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 13:23:19.562 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 13:23:29.609 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:27:58.673 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:28:00.515 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:28:01.094 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 13:28:01.663 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 13:28:11.712 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 13:29:31.985 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 13:29:33.729 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 13:29:34.323 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 13:29:35.319 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 13:29:45.363 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 16:36:25.761 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 16:36:27.989 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 16:36:28.600 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 16:36:29.196 [main] Loggerload - Expected error message is :username already exists
+[INFO ] 2024-11-05 16:36:29.233 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 16:36:29.266 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 16:36:32.744 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 16:36:34.343 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 16:36:35.057 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 16:36:35.882 [main] Loggerload - Expected error message is :Password should be atleast 8 characters
+[INFO ] 2024-11-05 16:36:35.932 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 16:36:35.966 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 16:36:39.438 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 16:36:41.089 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 16:36:41.659 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 16:36:42.451 [main] Loggerload - Expected error message is :Please enter a valid username
+[INFO ] 2024-11-05 16:36:42.525 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 16:36:42.548 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 16:36:45.997 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 16:36:47.436 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 16:36:48.013 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 16:36:48.586 [main] Loggerload - Expected error message is :Password cannot be only numeric
+[INFO ] 2024-11-05 16:36:48.618 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 16:36:48.637 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 16:36:52.164 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 16:36:53.656 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 16:36:54.207 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 16:36:55.430 [main] Loggerload - Expected error message is :password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-05 16:36:55.484 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-05 16:38:00.134 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 16:38:01.953 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 16:38:02.571 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-05 16:38:02.963 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[INFO ] 2024-11-05 16:59:34.760 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 16:59:36.778 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 16:59:37.351 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 16:59:38.016 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 16:59:48.094 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 17:02:14.095 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 17:02:16.114 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 17:02:16.689 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 17:02:17.355 [main] Loggerload - Expected error message is :username already exists
+[INFO ] 2024-11-05 17:02:17.387 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 17:02:17.418 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 17:02:20.959 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 17:02:24.779 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 17:02:25.688 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 17:02:26.119 [main] Loggerload - Expected error message is :Password should be atleast 8 characters
+[INFO ] 2024-11-05 17:02:26.173 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 17:02:26.197 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 17:02:29.635 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 17:02:31.007 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 17:02:31.563 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 17:02:32.200 [main] Loggerload - Expected error message is :Please enter a valid username
+[INFO ] 2024-11-05 17:02:32.236 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 17:02:32.255 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 17:02:35.876 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 17:02:37.341 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 17:02:37.899 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 17:02:38.554 [main] Loggerload - Expected error message is :Password cannot be only numeric
+[INFO ] 2024-11-05 17:02:38.586 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-05 17:02:38.612 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 17:02:42.039 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 17:02:43.428 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 17:02:44.017 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-05 17:02:44.843 [main] Loggerload - Expected error message is :password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-05 17:02:44.897 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-05 17:07:31.829 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 17:07:33.640 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 17:07:34.194 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 17:07:35.076 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 17:07:45.122 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 17:22:19.568 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 17:22:21.458 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 17:22:22.846 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 17:22:23.391 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 17:22:33.449 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 17:53:54.946 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 17:53:58.209 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 17:53:58.778 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 17:53:59.393 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 17:54:09.432 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 17:56:28.170 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 17:56:30.277 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 17:56:31.947 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 17:56:32.397 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 17:56:42.436 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-05 18:12:24.851 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-05 18:12:27.012 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-05 18:12:27.663 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-05 18:12:28.140 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-05 18:12:38.162 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:25:38.848 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:25:41.314 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:25:41.875 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-07 14:25:42.328 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-07 14:25:52.371 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:30:35.965 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:30:38.167 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:30:38.701 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-07 14:30:39.513 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-07 14:30:49.651 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:39:56.403 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:02.581 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:03.942 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:40:04.532 [main] Loggerload - The user do not enter any values in fields
+[INFO ] 2024-11-07 14:40:04.731 [main] Loggerload - Error message is displayedPlease fill out this field. below Username textbox
+[INFO ] 2024-11-07 14:40:08.107 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:09.398 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:40:09.930 [main] Loggerload - The user enters valid username and other fields empty
+[INFO ] 2024-11-07 14:40:10.262 [main] Loggerload - Error message is displaed Please fill out this field. below Password textbox
+[INFO ] 2024-11-07 14:40:13.592 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:15.006 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:40:15.553 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-07 14:40:15.984 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[INFO ] 2024-11-07 14:40:19.318 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:20.687 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:40:21.242 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:40:21.762 [main] Loggerload - Expected error message is :username already exists
+[INFO ] 2024-11-07 14:40:21.798 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-07 14:40:21.824 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:40:25.382 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:26.632 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:40:27.180 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:40:27.707 [main] Loggerload - Expected error message is :Password should be atleast 8 characters
+[INFO ] 2024-11-07 14:40:27.740 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-07 14:40:27.762 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:40:31.336 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:32.644 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:40:33.165 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:40:33.919 [main] Loggerload - Expected error message is :Please enter a valid username
+[INFO ] 2024-11-07 14:40:34.015 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-07 14:40:34.066 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:40:37.545 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:38.877 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:40:39.429 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:40:39.924 [main] Loggerload - Expected error message is :Password cannot be only numeric
+[INFO ] 2024-11-07 14:40:39.962 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-07 14:40:39.986 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:40:43.471 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:44.778 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:40:45.339 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:40:45.843 [main] Loggerload - Expected error message is :password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-07 14:40:45.889 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-07 14:40:49.203 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:40:50.487 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:40:51.060 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-07 14:40:51.609 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-07 14:41:01.671 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:41:36.152 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:41:42.518 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:41:43.888 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:41:44.434 [main] Loggerload - The user do not enter any values in fields
+[INFO ] 2024-11-07 14:41:44.609 [main] Loggerload - Error message is displayedPlease fill out this field. below Username textbox
+[INFO ] 2024-11-07 14:41:47.939 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:41:49.260 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:41:49.785 [main] Loggerload - The user enters valid username and other fields empty
+[INFO ] 2024-11-07 14:41:50.196 [main] Loggerload - Error message is displaed Please fill out this field. below Password textbox
+[INFO ] 2024-11-07 14:41:53.490 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:41:54.758 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:41:55.294 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-07 14:41:55.688 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
+[INFO ] 2024-11-07 14:41:59.010 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:42:00.413 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:42:00.941 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:42:01.547 [main] Loggerload - Expected error message is :username already exists
+[INFO ] 2024-11-07 14:42:01.590 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-07 14:42:01.619 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:42:05.162 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:42:06.485 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:42:06.994 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:42:07.533 [main] Loggerload - Expected error message is :Password should be atleast 8 characters
+[INFO ] 2024-11-07 14:42:07.563 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-07 14:42:07.584 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:42:11.248 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:42:12.622 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:42:13.155 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:42:13.861 [main] Loggerload - Expected error message is :Please enter a valid username
+[INFO ] 2024-11-07 14:42:14.039 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-07 14:42:14.075 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:42:17.677 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:42:19.021 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:42:20.200 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:42:20.924 [main] Loggerload - Expected error message is :Password cannot be only numeric
+[INFO ] 2024-11-07 14:42:20.962 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[ERROR] 2024-11-07 14:42:21.129 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 14:42:24.674 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:42:25.954 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:42:26.513 [main] Loggerload - The user is validating with different sets of data 
+[ERROR] 2024-11-07 14:42:27.176 [main] Loggerload - Expected error message is :password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-07 14:42:27.210 [main] Loggerload - Actual error message : password_mismatch:The two password fields didn’t match.
+[INFO ] 2024-11-07 14:42:30.519 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 14:42:31.875 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 14:42:32.446 [main] Loggerload - The user is entering valid Username and Password
+[INFO ] 2024-11-07 14:42:33.017 [main] Loggerload - The new account is created 
+[ERROR] 2024-11-07 14:42:43.062 [main] Loggerload - Scenario is Failed and taking Screenshot
