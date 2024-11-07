@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/5/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 07 14:39:55 CST 2024</td>
+<td>Started on:</td><td>Thu Nov 07 15:54:24 CST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>72 seconds (72710 ms)</td>
+<tr><td>Total time:</td><td>162 seconds (162651 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,167 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user Registers with invalid Details", "Testing functionality of Register Page"</td>
-<td><div><pre>java.lang.AssertionError: Error Message is incorrect expected [Please enter a valid username] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_able_to_see_the_error_msg(Register_SD.java:104)
-	at ✽.The user should be able to see the error msg &quot;Please enter a valid username&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:36)
-</pre></div><a href='#' onClick='toggleBox("stack-trace190182839", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace190182839'><pre>java.lang.AssertionError: Error Message is incorrect expected [Please enter a valid username] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_able_to_see_the_error_msg(Register_SD.java:104)
-	at ✽.The user should be able to see the error msg &quot;Please enter a valid username&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:36)
-</pre></div></td>
-<td>6</td>
-<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
-<tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user Registers with valid Details", "Testing functionality of Register Page"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;New Account Created.&apos;)]&quot;}
-  (Session info: chrome=130.0.6723.93)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4f08c9fcad7915c94eb0448755d6b4e0, findElement {value=//div[contains(text(),&apos;New Account Created.&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.93, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\SUDHAB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50809/devtoo..., se:cdpVersion: 130.0.6723.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4f08c9fcad7915c94eb0448755d6b4e0
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy41.getText(Unknown Source)
-	at dsalgo_PageObjects.HomePage.accountCreationMsg(HomePage.java:47)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_navigated_to_home_page_with_message(Register_SD.java:121)
-	at ✽.The user should be navigated to Home Page with message &quot;New Account Created. You are logged in as Lillyy_1@9910&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:50)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1430053704", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1430053704'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;New Account Created.&apos;)]&quot;}
-  (Session info: chrome=130.0.6723.93)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4f08c9fcad7915c94eb0448755d6b4e0, findElement {value=//div[contains(text(),&apos;New Account Created.&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.93, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\SUDHAB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50809/devtoo..., se:cdpVersion: 130.0.6723.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4f08c9fcad7915c94eb0448755d6b4e0
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy41.getText(Unknown Source)
-	at dsalgo_PageObjects.HomePage.accountCreationMsg(HomePage.java:47)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_navigated_to_home_page_with_message(Register_SD.java:121)
-	at ✽.The user should be navigated to Home Page with message &quot;New Account Created. You are logged in as Lillyy_1@9910&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:50)
-</pre></div></td>
-<td>16</td>
-<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
-<tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user Registers with invalid Details", "Testing functionality of Register Page"</td>
-<td><div><pre>java.lang.AssertionError: Error Message is incorrect expected [username already exists] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_able_to_see_the_error_msg(Register_SD.java:104)
-	at ✽.The user should be able to see the error msg &quot;username already exists&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:36)
-</pre></div><a href='#' onClick='toggleBox("stack-trace853913427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace853913427'><pre>java.lang.AssertionError: Error Message is incorrect expected [username already exists] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_able_to_see_the_error_msg(Register_SD.java:104)
-	at ✽.The user should be able to see the error msg &quot;username already exists&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:36)
-</pre></div></td>
-<td>6</td>
-<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
-<tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user Registers with invalid Details", "Testing functionality of Register Page"</td>
-<td><div><pre>java.lang.AssertionError: Error Message is incorrect expected [Password cannot be only numeric] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_able_to_see_the_error_msg(Register_SD.java:104)
-	at ✽.The user should be able to see the error msg &quot;Password cannot be only numeric&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:36)
-</pre></div><a href='#' onClick='toggleBox("stack-trace376234567", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace376234567'><pre>java.lang.AssertionError: Error Message is incorrect expected [Password cannot be only numeric] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_able_to_see_the_error_msg(Register_SD.java:104)
-	at ✽.The user should be able to see the error msg &quot;Password cannot be only numeric&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:36)
-</pre></div></td>
-<td>5</td>
-<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
-<tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user Registers with invalid Details", "Testing functionality of Register Page"</td>
-<td><div><pre>java.lang.AssertionError: Error Message is incorrect expected [Password should be atleast 8 characters] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_able_to_see_the_error_msg(Register_SD.java:104)
-	at ✽.The user should be able to see the error msg &quot;Password should be atleast 8 characters&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:36)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1275477177", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1275477177'><pre>java.lang.AssertionError: Error Message is incorrect expected [Password should be atleast 8 characters] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at dsalgo_StepDefinition.Register_SD.the_user_should_be_able_to_see_the_error_msg(Register_SD.java:104)
-	at ✽.The user should be able to see the error msg &quot;Password should be atleast 8 characters&quot;(file:///C:/work/DemoProject/src/test/resources/Features/RegisterPage.feature:36)
-</pre></div></td>
-<td>5</td>
-<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -237,29 +76,94 @@ Session ID: 4f08c9fcad7915c94eb0448755d6b4e0
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user Registers account with  Username and other fields empty", "Testing functionality of Register Page"</td>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to tryEditor page with run button to test python code from  Implementation using Array page", "User tests the Queue Page"</td>
 <td></td>
-<td>5</td>
+<td>10</td>
 <td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
 <tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user Registers account with username, password and Confirm Password empty", "Testing functionality of Register Page"</td>
-<td></td>
-<td>5</td>
-<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
-<tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user launches home page of DSAlgo Project", "Testing functionality of Register Page"</td>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Queue page and click on Practice Questions link", "User tests the Queue Page"</td>
 <td></td>
 <td>6</td>
 <td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
 <tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user Registers account with empty fields", "Testing functionality of Register Page"</td>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user runs with invalid code in  tryEditor for Implementation of Queue in Python Page", "User tests the Queue Page"</td>
 <td></td>
-<td>5</td>
+<td>8</td>
 <td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
 <tr>
-<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user Registers with invalid Details", "Testing functionality of Register Page"</td>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run valid code in TryEditor for Queue Operations page", "User tests the Queue Page"</td>
 <td></td>
-<td>5</td>
+<td>7</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run valid code in TryEditor for Implementation using collections.deque page", "User tests the Queue Page"</td>
+<td></td>
+<td>9</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to tryEditor page with run button to test python code from  Implementation of Queue in Python page", "User tests the Queue Page"</td>
+<td></td>
+<td>9</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user runs with invalid code in  tryEditor for Queue Operations page", "User tests the Queue Page"</td>
+<td></td>
+<td>7</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Queue page and click on Implementation using collections.deque link", "User tests the Queue Page"</td>
+<td></td>
+<td>7</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user runs with invalid code in  tryEditor for Implementation using collections.deque page", "User tests the Queue Page"</td>
+<td></td>
+<td>9</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run valid code in TryEditor for Implementation using Array page", "User tests the Queue Page"</td>
+<td></td>
+<td>8</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to run valid code in TryEditor for Implementation of Queue in Python Page", "User tests the Queue Page"</td>
+<td></td>
+<td>9</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Queue page and click on Queue Operations link", "User tests the Queue Page"</td>
+<td></td>
+<td>7</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user runs with invalid code in  tryEditor for Implementation using Array page", "User tests the Queue Page"</td>
+<td></td>
+<td>7</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Implementation of Queue in Python Link Page", "User tests the Queue Page"</td>
+<td></td>
+<td>8</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Queue page and click on Implementation using Array link", "User tests the Queue Page"</td>
+<td></td>
+<td>8</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to tryEditor page with run button to test python code from  Implementation using collections.deque page", "User tests the Queue Page"</td>
+<td></td>
+<td>10</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to tryEditor page with run button to test python code from  Queue Operations page", "User tests the Queue Page"</td>
+<td></td>
+<td>9</td>
+<td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
+<tr>
+<td title='dsalgo_TestRunner.TestNgRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgo_TestRunner.TestNgRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Queue Page", "User tests the Queue Page"</td>
+<td></td>
+<td>10</td>
 <td>dsalgo_TestRunner.TestNgRunner@1ae8bcbc</td></tr>
 </table><p>
 </body>

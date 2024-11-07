@@ -8,10 +8,13 @@ features={"src/test/resources/Features/QueuePage.feature"},
 //features={"src/test/resources/Features/RegisterPage.feature", "src/test/resources/Features/QueuePage.feature"},  //to run two different feature files
 //features= {"@target/rerun.txt"},
 
-//tags = "@TS_Register_04",
+
+tags = "@TS_Queue_04",
+
 publish=true,
 glue= {"dsalgo_StepDefinition","dsalgo_Hooks"},
 plugin={"pretty","html:target/CucumberReports/CucumberReport.html",
+		"json:target/report.json",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 		"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}
 //dryRun=true, // checks mapping between scenario steps and step definition methods
