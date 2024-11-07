@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-features={"src/test/resources/Features/RegisterPage.feature"},
+features={"src/test/resources/Features/QueuePage.feature"},
 //features={"src/test/resources/Features/RegisterPage.feature", "src/test/resources/Features/QueuePage.feature"},  //to run two different feature files
 //features= {"@target/rerun.txt"},
 
