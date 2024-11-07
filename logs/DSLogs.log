@@ -2956,3 +2956,7 @@
 [INFO ] 2024-11-07 14:42:32.446 [main] Loggerload - The user is entering valid Username and Password
 [INFO ] 2024-11-07 14:42:33.017 [main] Loggerload - The new account is created 
 [ERROR] 2024-11-07 14:42:43.062 [main] Loggerload - Scenario is Failed and taking Screenshot
+[INFO ] 2024-11-07 15:24:18.081 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 15:24:20.053 [main] Loggerload - The user opens Register Page
+[INFO ] 2024-11-07 15:24:20.649 [main] Loggerload - The user enters Username, Password and Password Confirmation empty
+[INFO ] 2024-11-07 15:24:21.176 [main] Loggerload - Error message is displayed Please fill out this field. below Password confirmation textbox
