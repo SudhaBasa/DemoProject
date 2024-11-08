@@ -3104,3 +3104,9 @@
 [INFO ] 2024-11-07 17:48:35.638 [main] Loggerload - The user is on Home Page
 [INFO ] 2024-11-07 17:48:35.668 [main] Loggerload - User is navigated to TryEditor page
 [INFO ] 2024-11-07 17:48:37.234 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-07 18:04:07.066 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-07 18:04:09.274 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-07 18:04:10.173 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-07 18:04:10.844 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-07 18:04:10.885 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-07 18:04:12.710 [main] Loggerload - Users clicks on Run Button
