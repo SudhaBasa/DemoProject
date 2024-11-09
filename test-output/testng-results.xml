@@ -1,27 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-07T18:12:37 CST" name="Default suite" finished-at="2024-11-07T18:12:49 CST" duration-ms="12052">
+  <suite started-at="2024-11-08T21:53:52 CST" name="Default suite" finished-at="2024-11-08T21:56:14 CST" duration-ms="142494">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-11-07T18:12:37 CST" name="Default test" finished-at="2024-11-07T18:12:49 CST" duration-ms="12052">
+    <test started-at="2024-11-08T21:53:52 CST" name="Default test" finished-at="2024-11-08T21:56:14 CST" duration-ms="142494">
       <class name="dsalgo_TestRunner.TestNgRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-07T18:12:37 CST" name="setUpClass" finished-at="2024-11-07T18:12:37 CST" duration-ms="636" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:53:52 CST" name="setUpClass" finished-at="2024-11-08T21:53:53 CST" duration-ms="639" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6879e983]]>
+                <![CDATA[org.testng.TestRunner@7a3f3bc4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-07T18:12:37 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-07T18:12:46 CST" duration-ms="8953" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:53:53 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:54:00 CST" duration-ms="7817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to Queue Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:54:00 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:54:07 CST" duration-ms="6633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to Implementation of Queue in Python Link Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:54:07 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:54:17 CST" duration-ms="9795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to tryEditor page with run button to test python code from  Implementation of Queue in Python page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:54:17 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:54:25 CST" duration-ms="8337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +85,231 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-07T18:12:46 CST" name="tearDownClass" finished-at="2024-11-07T18:12:49 CST" duration-ms="2401" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:54:25 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:54:33 CST" duration-ms="7526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user runs with invalid code in  tryEditor for Implementation of Queue in Python Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:54:33 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:54:40 CST" duration-ms="7000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to Queue page and click on Implementation using collections.deque link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:54:40 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:54:49 CST" duration-ms="9311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to tryEditor page with run button to test python code from  Implementation using collections.deque page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:54:49 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:54:56 CST" duration-ms="7322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to run valid code in TryEditor for Implementation using collections.deque page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:54:56 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:55:04 CST" duration-ms="7477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user runs with invalid code in  tryEditor for Implementation using collections.deque page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:55:04 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:55:10 CST" duration-ms="6504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to Queue page and click on Implementation using Array link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:55:10 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:55:20 CST" duration-ms="9199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to tryEditor page with run button to test python code from  Implementation using Array page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:55:20 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:55:27 CST" duration-ms="7371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to run valid code in TryEditor for Implementation using Array page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:55:27 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:55:34 CST" duration-ms="7394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user runs with invalid code in  tryEditor for Implementation using Array page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:55:34 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:55:41 CST" duration-ms="6608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to Queue page and click on Queue Operations link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:55:41 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:55:50 CST" duration-ms="9219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to tryEditor page with run button to test python code from  Queue Operations page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:55:50 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:55:58 CST" duration-ms="7646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to run valid code in TryEditor for Queue Operations page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:55:58 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:56:05 CST" duration-ms="7558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user runs with invalid code in  tryEditor for Queue Operations page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:56:05 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-08T21:56:12 CST" duration-ms="6636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to navigate to Queue page and click on Practice Questions link"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User tests the Queue Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsalgo_TestRunner.TestNgRunner@1ae8bcbc]" started-at="2024-11-08T21:56:12 CST" name="tearDownClass" finished-at="2024-11-08T21:56:14 CST" duration-ms="2418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
