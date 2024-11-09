@@ -3122,3 +3122,129 @@
 [INFO ] 2024-11-07 18:12:41.782 [main] Loggerload - The user is on Home Page
 [INFO ] 2024-11-07 18:12:41.814 [main] Loggerload - User is navigated to TryEditor page
 [INFO ] 2024-11-07 18:12:43.459 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:52:17.935 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:52:21.398 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:52:22.376 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:52:23.012 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:52:23.048 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-08 21:52:25.195 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:53:53.639 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:53:55.678 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:53:56.534 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:53:57.124 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:53:57.150 [main] Loggerload - User is on home page
+[INFO ] 2024-11-08 21:53:57.258 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-08 21:53:57.320 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-08 21:53:57.568 [main] Loggerload - User clicks on queue page from dropdown
+[INFO ] 2024-11-08 21:53:57.590 [main] Loggerload - Title of current page : Queue
+[INFO ] 2024-11-08 21:54:00.951 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:54:02.326 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:54:03.141 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:54:03.825 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:54:03.982 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-08 21:54:03.985 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-08 21:54:07.575 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:54:09.044 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:54:09.958 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:54:10.935 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:54:10.999 [main] Loggerload - User is navigated to Queue in Python Page
+[INFO ] 2024-11-08 21:54:11.001 [main] Loggerload - User is on Implementation of Queue In Python Link
+[INFO ] 2024-11-08 21:54:11.148 [main] Loggerload - User clicks on Try here button
+[INFO ] 2024-11-08 21:54:13.161 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-08 21:54:13.947 [main] Loggerload - Verifying Run button is displayed or not
+[INFO ] 2024-11-08 21:54:17.368 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:54:18.840 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:54:19.624 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:54:20.598 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:54:20.632 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-08 21:54:22.309 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:54:25.699 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:54:27.131 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:54:28.031 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:54:28.667 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:54:28.690 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-08 21:54:29.799 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:54:33.245 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:54:34.598 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:54:35.453 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:54:36.467 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:54:36.557 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-08 21:54:36.717 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-08 21:54:40.246 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:54:41.640 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:54:42.514 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:54:43.202 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:54:43.227 [main] Loggerload - User is on Implementation using Collections.deque
+[INFO ] 2024-11-08 21:54:43.393 [main] Loggerload - User clicks on Try here button
+[INFO ] 2024-11-08 21:54:45.401 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-08 21:54:46.207 [main] Loggerload - Verifying Run button is displayed or not
+[INFO ] 2024-11-08 21:54:49.538 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:54:50.907 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:54:51.703 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:54:52.392 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:54:52.413 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-08 21:54:53.486 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:54:56.862 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:54:58.280 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:54:59.099 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:54:59.825 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:54:59.846 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-08 21:55:00.953 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:55:04.340 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:55:05.638 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:55:06.497 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:55:07.153 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:55:07.175 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-08 21:55:07.313 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-08 21:55:10.842 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:55:12.186 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:55:13.022 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:55:13.672 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:55:13.694 [main] Loggerload - User is on Implementation using Array
+[INFO ] 2024-11-08 21:55:13.836 [main] Loggerload - User clicks on Try here button
+[INFO ] 2024-11-08 21:55:15.850 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-08 21:55:16.711 [main] Loggerload - Verifying Run button is displayed or not
+[INFO ] 2024-11-08 21:55:20.052 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:55:21.449 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:55:22.334 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:55:23.047 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:55:23.065 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-08 21:55:24.059 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:55:27.413 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:55:28.703 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:55:29.513 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:55:30.405 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:55:30.481 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-08 21:55:31.441 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:55:34.808 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:55:36.195 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:55:37.007 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:55:37.777 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:55:37.798 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-08 21:55:37.930 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-08 21:55:41.417 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:55:42.778 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:55:43.597 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:55:44.312 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:55:44.333 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-08 21:55:44.521 [main] Loggerload - User clicks on Try here button
+[INFO ] 2024-11-08 21:55:46.526 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-08 21:55:47.281 [main] Loggerload - Verifying Run button is displayed or not
+[INFO ] 2024-11-08 21:55:50.645 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:55:52.015 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:55:52.875 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:55:53.658 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:55:53.680 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-08 21:55:54.841 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:55:58.295 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:55:59.586 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:56:00.407 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:56:01.413 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:56:01.474 [main] Loggerload - User is navigated to TryEditor page
+[INFO ] 2024-11-08 21:56:02.445 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-08 21:56:05.850 [main] Loggerload - Testing on Chrome
+[INFO ] 2024-11-08 21:56:07.142 [main] Loggerload - The user is on Signin page of DS Algo portal
+[INFO ] 2024-11-08 21:56:07.994 [main] Loggerload - Signing on the home page
+[INFO ] 2024-11-08 21:56:08.820 [main] Loggerload - The user is on Home Page
+[INFO ] 2024-11-08 21:56:08.837 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-08 21:56:08.981 [main] Loggerload - User clicks on Practice Questions Link
